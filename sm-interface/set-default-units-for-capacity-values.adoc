@@ -1,0 +1,42 @@
+---
+permalink: sm-interface/set-default-units-for-capacity-values.html 
+sidebar: sidebar 
+keywords: system manager, display, capacity, gibibytes, tebibytes 
+summary: 'System Manager可以显示容量值、以吉字节(GiB)或太字节(TiB)为单位。' 
+---
+= 设置容量值的默认单位
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Manager可以显示容量值、以吉字节(GiB)或太字节(TiB)为单位。
+
+++++
+
+[cols="2a,3a"]
+|===
+| 缩写 | 价值 
+
+
+ a| 
+GIB
+ a| 
+1、024^3^字节
+
+
+
+ a| 
+TIB
+ a| 
+1、024^4^字节
+
+|===
+首选项存储在浏览器的本地存储中、因此所有用户都可以拥有自己的设置。
+
+.步骤
+. 选择*菜单：首选项[设置首选项]*。
+. 单击*吉字节*或*太字节*的单选按钮、然后确认您要执行此操作。
+

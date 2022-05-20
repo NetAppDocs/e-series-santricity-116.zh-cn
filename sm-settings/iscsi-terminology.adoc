@@ -1,0 +1,110 @@
+---
+permalink: sm-settings/iscsi-terminology.html 
+sidebar: sidebar 
+keywords: iscsi, storage array, terms apply 
+summary: 了解iSCSI术语如何应用于存储阵列。 
+---
+= iSCSI术语
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+了解iSCSI术语如何应用于存储阵列。
+
+[cols="1a,3a"]
+|===
+| 期限 | Description 
+
+
+ a| 
+CHAP
+ a| 
+质询握手身份验证协议(CHAP)方法可在初始链路期间验证目标和启动程序的身份。身份验证基于名为CHAP_secret__的共享安全密钥。
+
+
+
+ a| 
+控制器
+ a| 
+控制器由主板，固件和软件组成。它控制驱动器并实施 System Manager 功能。
+
+
+
+ a| 
+DHCP
+ a| 
+动态主机配置协议(DHCP)是Internet协议(IP)网络上使用的一种协议、用于动态分布网络配置参数、例如IP地址。
+
+
+
+ a| 
+IB
+ a| 
+InfiniBand （ IB ）是高性能服务器和存储系统之间数据传输的一种通信标准。
+
+
+
+ a| 
+ICMP ping响应
+ a| 
+Internet控制消息协议(Internet Control Message Protocol、ICMP)是网络计算机的操作系统用来发送消息的协议。ICMP消息可确定主机是否可访问以及从该主机获取数据包所需的时间。
+
+
+
+ a| 
+IQN
+ a| 
+iSCSI限定名称(IQN)标识符是iSCSI启动程序或iSCSI目标的唯一名称。
+
+
+
+ a| 
+iSER
+ a| 
+适用于RDMA的iSCSI扩展(iSER)是一种协议、用于扩展iSCSI协议、以便在InfiniBand或以太网等RDMA传输上运行。
+
+
+
+ a| 
+iSNS
+ a| 
+Internet存储名称服务(iSNS)是一种协议、允许在TCP/IP网络上自动发现、管理和配置iSCSI和光纤通道设备。
+
+
+
+ a| 
+MAC 地址
+ a| 
+以太网使用介质访问控制标识符(MAC地址)来区分连接同一物理传输网络接口上两个端口的不同逻辑通道。
+
+
+
+ a| 
+管理客户端
+ a| 
+管理客户端是指安装了浏览器以访问System Manager的计算机。
+
+
+
+ a| 
+MTU
+ a| 
+最大传输单元(Maximum Transmission Unit、MTU)是可在网络中发送的最大数据包或帧。
+
+
+
+ a| 
+RDMA
+ a| 
+远程直接内存访问(RDMA)是一项技术、允许网络计算机在主内存中交换数据、而无需涉及任一计算机的操作系统。
+
+
+
+ a| 
+未命名的发现会话
+ a| 
+启用未命名发现会话选项后、无需iSCSI启动程序指定目标IQN来检索控制器的信息。
+
+|===

@@ -1,0 +1,61 @@
+---
+permalink: sm-support/dcbx-operational-state-statistics.html 
+sidebar: sidebar 
+keywords: operational, state, statistics 
+summary: DCBX运行状态统计信息 
+---
+= DCBX运行状态统计信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+选择数据中心桥接交换(Data Center Bridging Exchange、DCBX)操作状态统计信息后、将显示这些统计信息。
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+iSCSI主机端口
+ a| 
+指示检测到的主机端口的位置、格式为控制器编号、端口号。
+
+
+
+ a| 
+优先级组
+ a| 
+指示优先级组(Priority Group、PG)应用程序的运行状态。此状态为"已启用"或"已禁用"。
+
+
+
+ a| 
+基于优先级的流量控制
+ a| 
+指示基于优先级的流量控制(PFC)功能的运行状态。此状态为"已启用"或"已禁用"。
+
+
+
+ a| 
+iSCSI功能
+ a| 
+指示Internet小型计算机系统接口(iSCSI)应用程序的运行状态。此状态为"已启用"或"已禁用"。
+
+
+
+ a| 
+FCoE带宽
+ a| 
+指示以太网光纤通道(FCoE)带宽的状态。此状态为True或False。
+
+
+
+ a| 
+无FCoE/FIP映射不匹配
+ a| 
+指示FCoE和FCoE初始化协议(FIP)之间是否存在映射不匹配。此值为True或False。
+
+|===
+您可以在状态捕获文件中找到其他DCBX运行状态统计信息。

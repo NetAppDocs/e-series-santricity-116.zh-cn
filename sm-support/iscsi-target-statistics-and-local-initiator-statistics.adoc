@@ -1,0 +1,88 @@
+---
+permalink: sm-support/iscsi-target-statistics-and-local-initiator-statistics.html 
+sidebar: sidebar 
+keywords: target, statistics, local, initiator, statistics, select, target 
+summary: iSCSI目标统计信息和本地启动程序统计信息 
+---
+= iSCSI目标统计信息和本地启动程序统计信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+选择目标(协议)统计信息或本地启动程序(协议)统计信息时、将显示以下统计信息。您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+SL
+ a| 
+成功的iSCSI登录计数
+
+
+
+ a| 
+用户
+ a| 
+iSCSI登录计数不成功
+
+
+
+ a| 
+SA
+ a| 
+成功的iSCSI身份验证计数(启用身份验证时)
+
+
+
+ a| 
+UA
+ a| 
+iSCSI身份验证计数不成功(启用身份验证时)
+
+
+
+ a| 
+PDU
+ a| 
+正确的iSCSI PDU已处理计数
+
+
+
+ a| 
+HDE
+ a| 
+具有标题摘要错误的iSCSI PDU计数
+
+
+
+ a| 
+DDE
+ a| 
+具有数据摘要错误的iSCSI PDU计数
+
+
+
+ a| 
+PE
+ a| 
+存在iSCSI协议错误的PDU计数
+
+
+
+ a| 
+客户
+ a| 
+意外iSCSI会话终止计数
+
+
+
+ a| 
+UCT
+ a| 
+意外的iSCSI连接终止计数
+
+|===

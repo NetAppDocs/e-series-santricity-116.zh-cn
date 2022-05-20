@@ -1,0 +1,234 @@
+---
+permalink: sm-support/mac-transmit-and-mac-receive-statistics.html 
+sidebar: sidebar 
+keywords: transmit, receive, statistics, ethernet, transmit 
+summary: MAC传输和MAC接收统计信息 
+---
+= MAC传输和MAC接收统计信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+如果选择以太网MAC统计信息、则会显示这些MAC传输统计信息。您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+F
+ a| 
+帧计数
+
+
+
+ a| 
+B
+ a| 
+字节计数
+
+
+
+ a| 
+mf
+ a| 
+多播帧计数
+
+
+
+ a| 
+Bf
+ a| 
+广播帧计数
+
+
+
+ a| 
+PF
+ a| 
+暂停帧计数
+
+
+
+ a| 
+cf
+ a| 
+控制帧计数
+
+
+
+ a| 
+FDF
+ a| 
+帧延迟计数
+
+
+
+ a| 
+馈送
+ a| 
+帧过量延迟计数
+
+
+
+ a| 
+FLC
+ a| 
+帧延迟冲突计数
+
+
+
+ a| 
+FA
+ a| 
+帧中止计数
+
+
+
+ a| 
+FSC
+ a| 
+帧单个冲突计数
+
+
+
+ a| 
+FMC
+ a| 
+帧多个冲突计数
+
+
+
+ a| 
+FC
+ a| 
+帧冲突计数
+
+
+
+ a| 
+FDR
+ a| 
+帧丢弃计数
+
+
+
+ a| 
+JF
+ a| 
+巨型帧计数
+
+|===
+如果选择以太网MAC统计信息、则会显示这些MAC接收统计信息。
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+F
+ a| 
+帧计数
+
+
+
+ a| 
+B
+ a| 
+字节计数
+
+
+
+ a| 
+mf
+ a| 
+多播帧计数
+
+
+
+ a| 
+Bf
+ a| 
+广播帧计数
+
+
+
+ a| 
+PF
+ a| 
+暂停帧计数
+
+
+
+ a| 
+cf
+ a| 
+控制帧计数
+
+
+
+ a| 
+FLE
+ a| 
+帧长度错误计数
+
+
+
+ a| 
+fd
+ a| 
+帧丢弃计数
+
+
+
+ a| 
+FCRCE
+ a| 
+帧CRC错误计数
+
+
+
+ a| 
+费用
+ a| 
+帧编码错误计数
+
+
+
+ a| 
+LFE
+ a| 
+大型帧错误计数
+
+
+
+ a| 
+SFE
+ a| 
+小型帧错误计数
+
+
+
+ a| 
+J
+ a| 
+Jabber计数
+
+
+
+ a| 
+UCC
+ a| 
+控制帧计数未知
+
+
+
+ a| 
+CSE
+ a| 
+托架感知错误计数
+
+|===

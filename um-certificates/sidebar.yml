@@ -1,0 +1,66 @@
+---
+section: um-certificates
+title: 证书和身份验证
+entries:
+- title: 证书管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 证书的工作原理
+      url: "/um-certificates/how-certificates-work-unified.html"
+    - title: 证书术语
+      url: "/um-certificates/certificate-terminology-unified.html"
+  - title: 操作说明
+    entries:
+    - title: 使用CA签名的证书
+      url: "/um-certificates/use-ca-signed-certificate-um.html"
+    - title: 重置管理证书
+      url: "/um-certificates/reset-management-certificates-unified.html"
+    - title: 导入阵列的证书
+      url: "/um-certificates/import-array-certificates-unified.html"
+    - title: 查看证书
+      url: "/um-certificates/view-certificates-unified.html"
+    - title: 导出证书
+      url: "/um-certificates/export-certificates-unified.html"
+    - title: 删除可信证书
+      url: "/um-certificates/delete-trusted-certificates-unified.html"
+    - title: 解析不可信的证书
+      url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+- title: 访问管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 访问管理的工作原理
+      url: "/um-certificates/how-access-management-works-unified.html"
+    - title: 访问管理术语
+      url: "/um-certificates/access-management-terminology-unified.html"
+    - title: 映射角色的权限
+      url: "/um-certificates/permissions-for-mapped-roles-unified.html"
+    - title: 具有本地用户角色的访问管理
+      url: "/um-certificates/access-management-with-local-user-roles-unified.html"
+    - title: 使用目录服务进行访问管理
+      url: "/um-certificates/access-management-with-directory-services-unified.html"
+  - title: 操作说明
+    entries:
+    - title: 查看本地用户角色
+      url: "/um-certificates/view-local-user-roles-unified.html"
+    - title: 更改密码
+      url: "/um-certificates/change-passwords-unified.html"
+    - title: 更改本地用户密码设置
+      url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: 添加目录服务器
+      url: "/um-certificates/add-directory-server-unified.html"
+    - title: 编辑目录服务器设置和角色映射
+      url: "/um-certificates/edit-directory-server-settings-unified.html"
+    - title: 删除目录服务器
+      url: "/um-certificates/remove-directory-server-unified.html"
+  - title: 常见问题解答
+    entries:
+    - title: 为什么我无法登录？
+      url: "/um-certificates/why-cant-i-log-in-unified.html"
+    - title: 在添加目录服务器之前、我需要了解哪些信息？
+      url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
+    - title: 关于映射到存储阵列角色、我需要了解哪些信息？
+      url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+    - title: 本地用户有哪些？
+      url: "/um-certificates/what-are-the-local-users.html"

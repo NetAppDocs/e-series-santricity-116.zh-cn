@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/how-does-my-selected-workload-impact-volume-creation.html 
+sidebar: sidebar 
+keywords: workload, storage, object, support, application, define, more, instance, system, manager, configure, contain, volumes, similar, underlying, characteristics, optimized, based, type, support, example, create, server, subsequently, underlying 
+summary: 工作负载是指支持应用程序的存储对象。您可以为每个应用程序定义一个或多个工作负载或实例。对于某些应用程序， System Manager 会将工作负载配置为包含具有类似底层卷特征的卷。这些卷特征会根据工作负载支持的应用程序类型进行优化。例如、如果您创建了一个支持Microsoft SQL Server应用程序的工作负载、然后为该工作负载创建了卷、则底层卷特征将进行优化以支持Microsoft SQL Server。 
+---
+= 选定工作负载对卷创建有何影响？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+工作负载是指支持应用程序的存储对象。您可以为每个应用程序定义一个或多个工作负载或实例。对于某些应用程序， System Manager 会将工作负载配置为包含具有类似底层卷特征的卷。这些卷特征会根据工作负载支持的应用程序类型进行优化。例如、如果您创建了一个支持Microsoft SQL Server应用程序的工作负载、然后为该工作负载创建了卷、则底层卷特征将进行优化以支持Microsoft SQL Server。
+
+* *特定于应用程序*。在使用应用程序特定的工作负载创建卷时、系统可能会建议优化卷配置、以最大程度地减少应用程序工作负载I/O与应用程序实例中的其他流量之间的争用。对于为以下应用程序类型创建的工作负载、系统会自动建议并优化卷特征、例如I/O类型、区块大小、控制器所有权以及读写缓存。
++
+** Microsoft®SQL Server (Microsoft®SQL Server)
+** Microsoft®Exchange Server (Microsoft®Exchange Server)
+** 视频监控应用程序
+** VMware ESXi TM (对于要与虚拟机文件系统结合使用的卷)您可以查看建议的卷配置、并使用*添加/编辑卷*对话框编辑、添加或删除系统建议的卷和特征。
+
+
+* *其他*(或不支持特定卷创建的应用程序)。其他工作负载使用的卷配置、如果您要创建的工作负载不与特定应用程序关联、或者System Manager没有为要在存储阵列上使用的应用程序进行内置优化、则必须手动指定。必须使用*添加/编辑卷*对话框手动指定卷配置。
+

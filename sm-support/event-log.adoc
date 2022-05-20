@@ -1,0 +1,27 @@
+---
+permalink: sm-support/event-log.html 
+sidebar: sidebar 
+keywords: event, log, provide, historical, record, occur, storage, array, aid, technical, support, troubleshooting, leading, failures 
+summary: 事件日志可提供存储阵列上发生的事件的历史记录、并有助于技术支持对导致故障的事件进行故障排除。 
+---
+= 事件日志
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+事件日志可提供存储阵列上发生的事件的历史记录、并有助于技术支持对导致故障的事件进行故障排除。
+
+事件日志是存储阵列中发生的事件的详细记录。它会记录配置事件和存储阵列组件故障。您可以使用事件日志作为Recovery Guru的补充诊断工具来跟踪存储阵列事件。在尝试从存储阵列中的组件故障中恢复时、请始终先参考Recovery Guru。
+
+事件日志中的事件按不同的状态进行分类。需要对其采取操作的事件具有以下状态：
+
+* 严重
+* 警告
+
+
+以下事件是信息性的、不需要立即采取任何措施：
+
+* 信息性
+

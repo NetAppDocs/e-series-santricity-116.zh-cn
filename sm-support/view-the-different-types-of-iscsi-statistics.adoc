@@ -1,0 +1,14 @@
+---
+permalink: sm-support/view-the-different-types-of-iscsi-statistics.html 
+sidebar: sidebar 
+keywords: review, different, sets, statistics, raw, baseline, ethernet, target, local, initiator, protocol, operational, state 
+summary: '您可以将不同的统计信息集作为原始统计信息或基线统计信息进行查看：以太网MAC统计信息、以太网TCP/IP统计信息、目标(协议)统计信息、本地启动程序(协议)统计信息、DCBX运行状态统计信息、LLDP TLV统计信息和DCBX TLV统计信息。' 
+---
+= 查看不同类型的iSCSI统计信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将不同的统计信息集作为原始统计信息或基线统计信息进行查看：以太网MAC统计信息、以太网TCP/IP统计信息、目标(协议)统计信息、本地启动程序(协议)统计信息、DCBX运行状态统计信息、LLDP TLV统计信息和DCBX TLV统计信息。

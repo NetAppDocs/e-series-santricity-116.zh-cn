@@ -1,0 +1,73 @@
+---
+permalink: sm-support/dcbx-tlv-statistics.html 
+sidebar: sidebar 
+keywords: statistics, typical, definition, logical, host, port, indicate 
+summary: DCBX TLV统计信息 
+---
+= DCBX TLV统计信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+选择数据中心桥接交换(Data Center Bridging Exchange、DCBX)类型长度值(TLV)统计信息时、将显示以下统计信息：
+
+* *local statistics*—出厂时在控制器上配置的DCBX参数。
+* *操作统计信息*—DCBX协商产生的DCBX参数。
+* *远程统计信息*—控制器所连接的对等设备中的DCBX参数、通常是交换机。
+
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+iSCSI主机端口
+ a| 
+指示检测到的主机端口的位置、格式为控制器编号、端口号。
+
+
+
+ a| 
+流量控制模式
+ a| 
+整个端口的流量控制模式。有效值包括"已禁用"、"标准"、"按优先级"或"不确定"。
+
+
+
+ a| 
+协议
+ a| 
+通信协议。有效值为FCoE、FIP、iSCSI或未知。
+
+
+
+ a| 
+优先级
+ a| 
+整型值、表示通信的优先级编号。
+
+
+
+ a| 
+优先级组
+ a| 
+整型值、表示已将协议分配到的优先级组。
+
+
+
+ a| 
+优先级组带宽百分比
+ a| 
+表示分配给优先级组的带宽量的百分比值。
+
+
+
+ a| 
+DCBX PFC状态
+ a| 
+特定端口的基于优先级的流量控制(PFC)状态。此值为enabled或disabled。
+
+|===
+您可以在状态捕获文件中找到其他DCBX TLV统计信息。

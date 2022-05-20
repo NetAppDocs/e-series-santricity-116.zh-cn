@@ -1,0 +1,22 @@
+---
+permalink: um-manage/launch-considerations.html 
+sidebar: sidebar 
+keywords: considerations, for, accessing, santricity, system, manager, 
+summary: 如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用启动选项打开SANtricity 系统管理器。 
+---
+= 访问SANtricity System Manager的注意事项
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果要配置和管理存储阵列、请选择一个或多个存储阵列并使用启动选项打开SANtricity 系统管理器。
+
+SANtricity System Manager是E2800或E5700控制器上的嵌入式应用程序、它通过以太网管理端口连接到网络。
+
+SANtricity System Manager为E2800或E5700阵列提供了所有基于阵列的功能。
+
+要访问SANtricity System Manager、您必须使用Web浏览器与网络管理客户端建立带外连接。
+
+image::../media/single2800.gif[单个2800]

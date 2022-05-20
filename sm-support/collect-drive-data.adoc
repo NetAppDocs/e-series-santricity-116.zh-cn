@@ -1,0 +1,39 @@
+---
+permalink: sm-support/collect-drive-data.html 
+sidebar: sidebar 
+keywords: collect, log, data, drives, storage, array, send, file, technical, support, analysis, task 
+summary: 您可以从存储阵列中的所有驱动器收集日志数据、并将此文件发送给技术支持进行分析。 
+---
+= 收集驱动器数据
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以从存储阵列中的所有驱动器收集日志数据、并将此文件发送给技术支持进行分析。
+
+日志数据由存储阵列中每个驱动器维护的统计信息组成。技术支持可以使用此信息分析驱动器的性能、并对可能存在的问题进行故障排除。
+
+[NOTE]
+====
+只有在技术支持要求时、才执行此操作。
+
+====
+.步骤
+. 选择菜单：Support[支持中心>诊断]选项卡。
+. 选择*收集驱动器数据*。
++
+此时将显示一个对话框、其中列出了存储阵列中的所有驱动器。
+
+. 在表的第一列中、您可以选择要收集数据的各个驱动器(单击每个驱动器旁边的复选框)、也可以选择所有驱动器(选中表标题中的复选框)。
++
+要查找特定驱动器、您可以对任意列进行排序、也可以在*筛选器*框中键入字符。
+
+. 单击 * 收集 * 。
++
+此文件将保存在浏览器的"Downloads"文件夹中、名为`drive-data.7z`。
+
+. 按照技术支持提供的说明将文件发送给他们。
+

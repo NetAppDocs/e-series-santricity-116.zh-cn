@@ -1,0 +1,61 @@
+---
+permalink: sm-support/lldp-tlv-statistics.html 
+sidebar: sidebar 
+keywords: statistics, select, link, discovery, protocol, length 
+summary: LLDP TLV统计信息 
+---
+= LLDP TLV统计信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+如果选择链路层发现协议(Link Layer Discovery Protocol、LLDP)类型长度值(TLV)统计信息、则会显示这些统计信息。此时将显示两组统计信息：一组用于本地设备、另一组用于远程设备。本地设备是指控制器。远程设备是指控制器所连接的对等设备、通常是交换机。
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+iSCSI主机端口
+ a| 
+指示检测到的主机端口的位置、格式为控制器编号、端口号。
+
+
+
+ a| 
+机箱 ID
+ a| 
+指示机箱ID。
+
+
+
+ a| 
+机箱ID子类型
+ a| 
+指示机箱ID子类型。
+
+
+
+ a| 
+端口 ID
+ a| 
+指示端口ID。
+
+
+
+ a| 
+端口ID子类型
+ a| 
+指示端口ID子类型。
+
+
+
+ a| 
+生存时间
+ a| 
+指示收件人LLDP代理将信息视为有效的秒数。
+
+|===
+您可以在状态捕获文件中找到其他LLDP TLV统计信息。

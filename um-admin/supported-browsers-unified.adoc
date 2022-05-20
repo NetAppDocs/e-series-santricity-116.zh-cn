@@ -1,0 +1,61 @@
+---
+permalink: um-admin/supported-browsers-unified.html 
+sidebar: sidebar 
+keywords: santricity, unified, manager, access, several, types, browsers 
+summary: SANtricity 统一管理器可从多种类型的浏览器进行访问。 
+---
+= 支持的浏览器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity 统一管理器可从多种类型的浏览器进行访问。
+
+支持以下浏览器和版本。
+
+[cols="2*"]
+|===
+| 浏览器 | 最低版本 
+
+
+ a| 
+Google Chrome
+ a| 
+47
+
+
+
+ a| 
+Microsoft Internet Explorer
+ a| 
+11.
+
+
+
+ a| 
+Microsoft Edge
+ a| 
+EdgeHTML 12
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+31
+
+
+
+ a| 
+Safari
+ a| 
+9
+
+|===
+[NOTE]
+====
+Web服务代理必须已安装并可供浏览器使用。
+
+====

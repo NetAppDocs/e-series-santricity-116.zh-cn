@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-media-types-are-supported-for-a-drive.html 
+sidebar: sidebar 
+keywords: following, media, types, support, hard disk, solid, state, drive 
+summary: '支持以下介质类型：硬盘驱动器(HDD)和固态磁盘(SSD)。' 
+---
+= 驱动器支持哪些介质类型？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支持以下介质类型：硬盘驱动器(HDD)和固态磁盘(SSD)。

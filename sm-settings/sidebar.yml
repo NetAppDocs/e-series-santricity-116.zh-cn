@@ -1,0 +1,334 @@
+---
+section: sm-settings
+title: 设置
+entries:
+- title: 警报
+  entries:
+  - title: 概念
+    entries:
+    - title: 警报的工作原理
+      url: "/sm-settings/how-alerts-work.html"
+    - title: 警报术语
+      url: "/sm-settings/alerts-terminology.html"
+  - title: 操作说明
+    entries:
+    - title: 管理电子邮件警报
+      entries:
+      - title: 为警报配置邮件服务器和收件人
+        url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+      - title: 编辑警报的电子邮件地址
+        url: "/sm-settings/edit-alert-email-addresses.html"
+      - title: 为警报添加电子邮件地址
+        url: "/sm-settings/add-alert-email-addresses.html"
+      - title: 删除警报的邮件服务器或电子邮件地址
+        url: "/sm-settings/delete-alert-email-addresses.html"
+      - title: 编辑警报的邮件服务器
+        url: "/sm-settings/edit-mail-server-for-alerts.html"
+    - title: 管理SNMP警报
+      entries:
+      - title: 配置SNMP警报的社区和目标
+        url: "/sm-settings/configure-snmp-alerts.html"
+      - title: 编辑SNMP陷阱的社区名称
+        url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+      - title: 为SNMP陷阱添加社区名称
+        url: "/sm-settings/add-community-names-for-snmp-traps.html"
+      - title: 删除SNMP陷阱的团体名称
+        url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+      - title: 配置SNMP MIB变量
+        url: "/sm-settings/configure-snmp-mib-variables.html"
+      - title: 为SNMP警报添加陷阱目标
+        url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+      - title: 删除陷阱目标
+        url: "/sm-settings/delete-trap-destinations.html"
+    - title: 管理系统日志警报
+      entries:
+      - title: 为系统日志服务器配置警报
+        url: "/sm-settings/configure-syslog-server-for-alerts.html"
+      - title: 编辑系统日志服务器中的警报
+        url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+      - title: 为警报添加系统日志服务器
+        url: "/sm-settings/add-syslog-servers-for-alerts.html"
+      - title: 删除警报的系统日志服务器
+        url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+  - title: 常见问题解答
+    entries:
+    - title: 如果警报已禁用、该怎么办？
+      url: "/sm-settings/what-if-alerts-are-disabled.html"
+    - title: 如何配置SNMP或系统日志警报？
+      url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
+    - title: 阵列和警报之间的时间戳为何不一致？
+      url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+- title: system：存储阵列设置
+  entries:
+  - title: 概念
+    entries:
+    - title: 缓存设置和性能
+      url: "/sm-settings/cache-settings-and-performance.html"
+    - title: 自动负载平衡概述
+      url: "/sm-settings/automatic-load-balancing-overview.html"
+    - title: 默认主机操作系统类型
+      url: "/sm-settings/default-host-operating-system-type.html"
+  - title: 操作说明
+    entries:
+    - title: 编辑存储阵列名称
+      url: "/sm-settings/edit-storage-array-name.html"
+    - title: 打开存储阵列定位灯
+      url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+    - title: 同步存储阵列时钟
+      url: "/sm-settings/synchronize-storage-array-clocks.html"
+    - title: 保存存储阵列配置
+      url: "/sm-settings/save-storage-array-configuration.html"
+    - title: 清除存储阵列配置
+      url: "/sm-settings/clear-storage-array-configuration.html"
+    - title: 配置登录横幅
+      url: "/sm-settings/configure-login-banner.html"
+    - title: 管理会话超时
+      url: "/sm-settings/manage-session-timeouts-sam.html"
+    - title: 更改存储阵列的缓存设置
+      url: "/sm-settings/change-cache-settings-for-storage-array.html"
+    - title: 设置主机连接报告
+      url: "/sm-settings/set-host-connectivity-reporting.html"
+    - title: 设置自动负载平衡
+      url: "/sm-settings/set-automatic-load-balancing.html"
+    - title: 更改默认主机类型
+      url: "/sm-settings/change-default-host-type.html"
+    - title: 启用或禁用原有管理界面
+      url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+  - title: 常见问题解答
+    entries:
+    - title: 什么是控制器缓存？
+      url: "/sm-settings/what-is-controller-cache.html"
+    - title: 什么是缓存刷新？
+      url: "/sm-settings/what-is-cache-flushing.html"
+    - title: 什么是缓存块大小？
+      url: "/sm-settings/what-is-cache-block-size.html"
+    - title: 何时应同步存储阵列时钟？
+      url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+    - title: 什么是主机连接报告？
+      url: "/sm-settings/what-is-host-connectivity-reporting.html"
+- title: system：iSCSI设置
+  entries:
+  - title: 概念
+    entries:
+    - title: iSCSI术语
+      url: "/sm-settings/iscsi-terminology.html"
+  - title: 操作说明
+    entries:
+    - title: 配置iSCSI端口
+      url: "/sm-settings/configure-iscsi-ports-system.html"
+    - title: 配置iSCSI身份验证
+      url: "/sm-settings/configure-iscsi-authentication.html"
+    - title: 启用iSCSI发现设置
+      url: "/sm-settings/enable-iscsi-discovery-settings.html"
+    - title: 查看iSCSI统计信息包
+      url: "/sm-settings/view-iscsi-statistics-packages-system.html"
+    - title: 查看 iSCSI 会话
+      url: "/sm-settings/view-iscsi-sessions-system.html"
+    - title: 结束iSCSI会话
+      url: "/sm-settings/end-iscsi-session-system.html"
+    - title: 通过InfiniBand端口配置iSER
+      url: "/sm-settings/configure-iser-over-infiniband-ports-system.html"
+    - title: 查看基于InfiniBand的iSER统计信息
+      url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+  - title: 常见问题解答
+    entries:
+    - title: 使用iSNS服务器进行注册时会发生什么情况？
+      url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+    - title: iSCSI自动支持哪些注册方法？
+      url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+    - title: 如何解读基于InfiniBand统计信息的iSER？
+      url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+    - title: 要通过InfiniBand配置或诊断iSER、还需要执行哪些操作？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+- title: system：NVMe设置
+  entries:
+  - title: 概念
+    entries:
+    - title: NVMe 概述
+      url: "/sm-settings/nvme-overview.html"
+    - title: NVMe术语
+      url: "/sm-settings/nvme-terminology.html"
+  - title: 操作说明
+    entries:
+    - title: 配置基于InfiniBand的NVMe端口
+      url: "/sm-settings/configure-nvme-over-infiniband-ports-system.html"
+    - title: 配置基于RoCE的NVMe端口
+      url: "/sm-settings/configure-nvme-over-roce-ports-system.html"
+    - title: 查看基于网络结构的NVMe统计信息
+      url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+  - title: 常见问题解答
+    entries:
+    - title: 如何解读基于网络结构的NVMe统计信息？
+      url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+    - title: 要配置或诊断基于InfiniBand的NVMe、还需要执行哪些操作？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+    - title: 要通过RoCE配置或诊断NVMe、还需要执行哪些操作？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+    - title: 为什么一个物理端口有两个IP地址？
+      url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+    - title: 为什么一个物理端口有两组参数？
+      url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+- title: 系统：附加功能
+  entries:
+  - title: 概念
+    entries:
+    - title: 附加功能的工作原理
+      url: "/sm-settings/how-add-on-features-work.html"
+    - title: 附加功能术语
+      url: "/sm-settings/add-on-feature-terminology.html"
+  - title: 操作说明
+    entries:
+    - title: 获取功能密钥文件
+      url: "/sm-settings/obtain-a-feature-key-file.html"
+    - title: 启用高级功能
+      url: "/sm-settings/enable-premium-feature.html"
+    - title: 启用功能包
+      url: "/sm-settings/enable-feature-pack.html"
+    - title: 下载命令行界面(CLI)
+      url: "/sm-settings/download-cli.html"
+- title: 系统：安全密钥管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 驱动器安全功能的工作原理
+      url: "/sm-settings/how-the-drive-security-feature-works.html"
+    - title: 安全密钥管理的工作原理
+      url: "/sm-settings/how-security-key-management-works.html"
+    - title: 驱动器安全术语
+      url: "/sm-settings/drive-security-terminology.html"
+  - title: 操作说明
+    entries:
+    - title: 创建内部安全密钥
+      url: "/sm-settings/create-internal-security-key.html"
+    - title: 创建外部安全密钥
+      url: "/sm-settings/create-external-security-key.html"
+    - title: 更改安全密钥
+      url: "/sm-settings/change-security-key.html"
+    - title: 从外部密钥管理切换到内部密钥管理
+      url: "/sm-settings/switch-from-external-to-internal-key-management.html"
+    - title: 编辑密钥管理服务器设置
+      url: "/sm-settings/edit-key-management-server-settings.html"
+    - title: 备份安全密钥
+      url: "/sm-settings/back-up-security-key.html"
+    - title: 验证安全密钥
+      url: "/sm-settings/validate-security-key.html"
+    - title: 使用安全密钥解锁驱动器
+      url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
+  - title: 常见问题解答
+    entries:
+    - title: 在创建安全密钥之前、我需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
+    - title: 为什么需要定义密码短语？
+      url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
+    - title: 为什么记录安全密钥信息很重要？
+      url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
+    - title: 备份安全密钥前需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
+    - title: 在解除安全驱动器锁定之前、我需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
+    - title: 什么是读/写可访问性？
+      url: "/sm-settings/what-is-read-write-accessibility.html"
+    - title: 验证安全密钥时需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
+    - title: 内部安全密钥与外部安全密钥管理有何区别？
+      url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+- title: 访问管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 访问管理的工作原理
+      url: "/sm-settings/how-access-management-works.html"
+    - title: 访问管理术语
+      url: "/sm-settings/access-management-terminology.html"
+    - title: 映射角色的权限
+      url: "/sm-settings/permissions-for-mapped-roles.html"
+    - title: 具有本地用户角色的访问管理
+      url: "/sm-settings/access-management-with-local-user-roles.html"
+    - title: 使用目录服务进行访问管理
+      url: "/sm-settings/access-management-with-directory-services.html"
+    - title: 使用SAML进行访问管理
+      url: "/sm-settings/access-management-with-saml.html"
+  - title: 操作说明
+    entries:
+    - title: 查看本地用户角色
+      url: "/sm-settings/view-local-user-roles.html"
+    - title: 更改密码
+      url: "/sm-settings/change-passwords.html"
+    - title: 更改本地用户密码设置
+      url: "/sm-settings/change-local-user-passwords-settings.html"
+    - title: 添加目录服务器
+      url: "/sm-settings/add-directory-server.html"
+    - title: 编辑目录服务器设置和角色映射
+      url: "/sm-settings/edit-directory-server-settings.html"
+    - title: 删除目录服务器
+      url: "/sm-settings/remove-directory-server.html"
+    - title: 配置SAML
+      url: "/sm-settings/configure-saml.html"
+    - title: 更改SAML角色映射
+      url: "/sm-settings/change-saml-role-mappings.html"
+    - title: 导出SAML服务提供程序文件
+      url: "/sm-settings/export-saml-service-provider-files.html"
+    - title: 查看审核日志活动
+      url: "/sm-settings/view-audit-log-activity.html"
+    - title: 定义审核日志策略
+      url: "/sm-settings/define-log-policies.html"
+    - title: 从审核日志中删除事件
+      url: "/sm-settings/delete-events-from-the-audit-log.html"
+    - title: 为审核日志配置系统日志服务器
+      url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
+    - title: 编辑审核日志记录的系统日志服务器设置
+      url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+  - title: 常见问题解答
+    entries:
+    - title: 为什么我无法登录？
+      url: "/sm-settings/why-cant-i-log-in.html"
+    - title: 在添加目录服务器之前、我需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
+    - title: 关于映射到存储阵列角色、我需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
+    - title: 哪些外部管理工具可能会受到此更改的影响？
+      url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
+    - title: 在配置和启用SAML之前、我需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
+    - title: 审核日志中记录了哪些类型的事件？
+      url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
+    - title: 在配置系统日志服务器之前、我需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
+    - title: 系统日志服务器不再接收审核日志。我该怎么办？
+      url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+- title: 证书
+  entries:
+  - title: 概念
+    entries:
+    - title: 证书的工作原理
+      url: "/sm-settings/how-certificates-work-sam.html"
+    - title: 证书术语
+      url: "/sm-settings/certificate-terminology.html"
+  - title: 操作说明
+    entries:
+    - title: 对控制器使用CA签名的证书
+      url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
+    - title: 重置管理证书
+      url: "/sm-settings/reset-management-certificates.html"
+    - title: 查看导入的证书信息
+      url: "/sm-settings/view-imported-certificates.html"
+    - title: 作为客户端时导入控制器的证书
+      url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
+    - title: 启用证书撤消检查
+      url: "/sm-settings/enable-certificate-revocation-checking.html"
+    - title: 删除可信证书
+      url: "/sm-settings/delete-trusted-certificates.html"
+    - title: 使用CA签名的证书通过密钥管理服务器进行身份验证
+      url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
+    - title: 导出密钥管理服务器证书
+      url: "/sm-settings/export-key-management-certificates.html"
+  - title: 常见问题解答
+    entries:
+    - title: 为什么会显示"无法访问其他控制器"对话框？
+      url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
+    - title: 如何知道需要将哪些证书上传到System Manager才能进行外部密钥管理？
+      url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
+    - title: 关于证书撤消检查、我需要了解哪些信息？
+      url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
+    - title: 将为哪些类型的服务器启用撤消检查？
+      url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"

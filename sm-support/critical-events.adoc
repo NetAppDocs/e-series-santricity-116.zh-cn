@@ -1,0 +1,18 @@
+---
+permalink: sm-support/critical-events.html 
+sidebar: sidebar 
+keywords: critical, events, indicate, problem, storage, array, resolve, immediately, might, prevent, loss, data, access 
+summary: 严重事件表示存储阵列存在问题。如果您立即解决此严重事件、则可能会防止数据访问丢失。 
+---
+= 严重事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+严重事件表示存储阵列存在问题。如果您立即解决此严重事件、则可能会防止数据访问丢失。
+
+发生严重事件时、该事件会记录在事件日志中。所有严重事件都会发送到SNMP管理控制台或您配置为接收警报通知的电子邮件收件人。如果磁盘架ID在事件发生时未知、则磁盘架ID将列为"磁盘架未知"。
+
+收到严重事件后、请参阅Recovery Guru操作步骤 以了解此严重事件的详细问题描述。完成Recovery Guru操作步骤 以更正严重事件。要更正某些关键事件、您可能需要联系技术支持。

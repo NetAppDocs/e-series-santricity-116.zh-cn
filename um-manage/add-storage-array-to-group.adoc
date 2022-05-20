@@ -1,0 +1,22 @@
+---
+permalink: um-manage/add-storage-array-to-group.html 
+sidebar: sidebar 
+keywords: add, storage, array, to, group, manage, 
+summary: 您可以将一个或多个存储阵列添加到用户创建的组中。 
+---
+= 将存储阵列添加到组
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将一个或多个存储阵列添加到用户创建的组中。
+
+.步骤
+. 在主视图中、选择*管理*、然后选择要将存储阵列添加到的组。
+. 选择菜单：管理组[将存储阵列添加到组]。
+. 选择要添加到组中的存储阵列。
+. 单击 * 添加。 *
+

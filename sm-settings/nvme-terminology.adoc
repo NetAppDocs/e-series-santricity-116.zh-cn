@@ -1,0 +1,110 @@
+---
+permalink: sm-settings/nvme-terminology.html 
+sidebar: sidebar 
+keywords: nvme, terms, storage array 
+summary: 了解NVMe术语如何应用于您的存储阵列。 
+---
+= NVMe术语
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+了解NVMe术语如何应用于您的存储阵列。
+
+[cols="1a,3a"]
+|===
+| 期限 | Description 
+
+
+ a| 
+InfiniBand
+ a| 
+InfiniBand （ IB ）是高性能服务器和存储系统之间数据传输的一种通信标准。
+
+
+
+ a| 
+命名空间
+ a| 
+命名空间是指为块访问而格式化的NVM存储。它类似于SCSI中的逻辑单元、它与存储阵列中的卷相关。
+
+
+
+ a| 
+命名空间ID
+ a| 
+命名空间ID是NVMe控制器在命名空间中的唯一标识符、可设置为1到255之间的值。它类似于SCSI中的逻辑单元号(Logical Unit Number、LUN)。
+
+
+
+ a| 
+NQN
+ a| 
+NVMe限定名称(NQN)用于标识远程存储目标(存储阵列)。
+
+
+
+ a| 
+NVM
+ a| 
+非易失性内存(NVM)是许多类型的存储设备中使用的永久性内存。
+
+
+
+ a| 
+NVMe
+ a| 
+Non-Volatile Memory Express (NVMe)是一种专为SSD驱动器等基于闪存的存储设备设计的接口。与以前的逻辑设备接口相比、NVMe可降低I/O开销并提高性能。
+
+
+
+ a| 
+NVMe-oF
+ a| 
+基于网络结构的非易失性Memory Express (NVMe-oF)是一种规范、可使NVMe命令和数据通过网络在主机和存储之间传输。
+
+
+
+ a| 
+NVMe控制器
+ a| 
+NVMe控制器是在主机连接过程中创建的。它可在主机与存储阵列中的命名空间之间提供访问路径。
+
+
+
+ a| 
+NVMe队列
+ a| 
+队列用于通过NVMe接口传递命令和消息。
+
+
+
+ a| 
+NVMe 子系统
+ a| 
+具有NVMe主机连接的存储阵列。
+
+
+
+ a| 
+RDMA
+ a| 
+通过在网络接口卡(NIC)硬件中实施传输协议、远程直接内存访问(Remote Direct Memory Access、RDMA)可以更直接地将数据移入和移出服务器。
+
+
+
+ a| 
+RoCE
+ a| 
+基于融合以太网的 RDMA （ RoCE ）是一种网络协议，允许通过以太网远程直接内存访问（ RDMA ）。
+
+
+
+ a| 
+SSD
+ a| 
+固态磁盘（ SSD ）是指使用固态内存（ Flash ）持久存储数据的数据存储设备。SSD 可模拟传统硬盘驱动器，并可与硬盘驱动器使用相同的接口。
+
+|===

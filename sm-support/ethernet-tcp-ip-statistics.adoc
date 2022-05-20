@@ -1,0 +1,192 @@
+---
+permalink: sm-support/ethernet-tcp-ip-statistics.html 
+sidebar: sidebar 
+keywords: ethernet, statistics, definition, statistics, transmitted, byte, expired 
+summary: 以太网TCP/IP统计信息 
+---
+= 以太网TCP/IP统计信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+如果选择以太网TCP/IP统计信息、则会显示此表中的TCP统计信息。您可以将其中每个统计信息作为原始统计信息或基线统计信息进行查看。
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+TXS
+ a| 
+已传输的区块数
+
+
+
+ a| 
+TXB
+ a| 
+已传输字节计数
+
+
+
+ a| 
+RTxTE
+ a| 
+重新传输计时器已过期计数
+
+
+
+ a| 
+TxDACK
+ a| 
+传输延迟的ACK计数
+
+
+
+ a| 
+TxACK
+ a| 
+传输ACK计数
+
+
+
+ a| 
+Rxs
+ a| 
+已接收的区块数
+
+
+
+ a| 
+RxB
+ a| 
+收到的字节计数
+
+
+
+ a| 
+RxDACK
+ a| 
+收到重复的ACK计数
+
+
+
+ a| 
+RxACK
+ a| 
+已收到确认计数
+
+
+
+ a| 
+RxSEC
+ a| 
+收到的分段错误计数
+
+
+
+ a| 
+RxSOOC
+ a| 
+收到的区块无序计数
+
+
+
+ a| 
+RxWP
+ a| 
+已收到窗口探测计数
+
+
+
+ a| 
+RxWU
+ a| 
+已收到窗口更新计数
+
+|===
+如果选择以太网TCP/IP统计信息、则会显示此表中的IP统计信息。
+
+[cols="2*"]
+|===
+| 统计信息 | 定义 
+
+
+ a| 
+TxP
+ a| 
+传输的数据包计数
+
+
+
+ a| 
+TXB
+ a| 
+已传输字节计数
+
+
+
+ a| 
+TxF
+ a| 
+已传输的片段计数
+
+
+
+ a| 
+RXP
+ a| 
+收到的数据包计数。选择*显示IPv*以显示收到的IPv4数据包计数。选择*显示IPv6*以显示收到的IPv6数据包计数。
+
+
+
+ a| 
+RxB
+ a| 
+收到的字节计数
+
+
+
+ a| 
+RXF
+ a| 
+收到的片段计数
+
+
+
+ a| 
+RxPE
+ a| 
+收到的数据包错误计数
+
+
+
+ a| 
+灾难恢复
+ a| 
+数据报重组计数
+
+
+
+ a| 
+DRE-OLFC
+ a| 
+数据报重组错误、片段计数重叠
+
+
+
+ a| 
+DRE-OFC
+ a| 
+数据报重组错误、无序片段计数
+
+
+
+ a| 
+DRE-TOC
+ a| 
+数据报重组错误、超时计数
+
+|===

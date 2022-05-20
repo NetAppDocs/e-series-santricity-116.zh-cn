@@ -1,0 +1,28 @@
+---
+settings:
+  name: SANtricity 11.6
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: zh-cn,us-en,ja-jp,zh-tw,ko-kr
+sidebar:
+  entries:
+  - title: SANtricity 11.6文档
+    url: "/index.html"
+  - title: System Manager
+    entries:
+    - section: sm-interface
+    - section: sm-storage
+    - section: sm-mirroring
+    - section: sm-hardware
+    - section: sm-settings
+    - section: sm-support
+  - title: Unified Manager
+    entries:
+    - section: um-admin
+    - section: um-manage
+    - section: um-certificates
+  - title: 法律声明
+    url: "/legal-notices.html"

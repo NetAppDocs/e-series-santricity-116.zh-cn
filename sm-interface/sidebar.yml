@@ -1,0 +1,60 @@
+---
+section: sm-interface
+title: 主接口
+entries:
+- title: 主页
+  url: "/sm-interface/home-page.html"
+- title: 设置向导
+  entries:
+  - title: 概念
+    entries:
+    - title: 设置向导概述
+      url: "/sm-interface/setup-wizard-overview.html"
+    - title: 设置向导术语
+      url: "/sm-interface/setup-wizard-terminology.html"
+  - title: 常见问题解答
+    entries:
+    - title: 如果我看不到所有硬件组件、该怎么办？
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+    - title: 如果我看不到所有主机、该怎么办？
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+    - title: 识别应用程序如何帮助我管理存储阵列？
+      url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+    - title: 什么是工作负载？
+      url: "/sm-interface/what-is-a-workload.html"
+    - title: 如何配置AutoSupport 的交付方法？
+      url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+    - title: 如何知道是否应接受建议的池配置？
+      url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+    - title: System Manager未检测到任何主机。我该怎么办？
+      url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+- title: 存储阵列管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 存储阵列概述
+      url: "/sm-interface/storage-array-overview.html"
+    - title: 管理员密码保护
+      url: "/sm-interface/administrator-password-protection.html"
+    - title: 问题通知
+      url: "/sm-interface/problem-notification.html"
+    - title: 正在执行操作
+      url: "/sm-interface/operations-in-progress.html"
+  - title: 操作说明
+    entries:
+    - title: 设置容量值的默认单位
+      url: "/sm-interface/set-default-units-for-capacity-values.html"
+    - title: 设置性能图形的默认时间范围
+      url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+    - title: 使用Recovery Guru从问题中恢复
+      url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+    - title: 查看正在进行的操作并采取相应措施
+      url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+  - title: 常见问题解答
+    entries:
+    - title: 在哪里可以找到有关显示首选项的详细信息？
+      url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+    - title: 支持哪些浏览器？
+      url: "/sm-interface/what-are-the-supported-browsers.html"
+    - title: 什么是键盘快捷键？
+      url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
