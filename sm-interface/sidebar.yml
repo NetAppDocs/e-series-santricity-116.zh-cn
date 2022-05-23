@@ -4,6 +4,8 @@ title: 主接口
 entries:
 - title: 主页
   url: "/sm-interface/home-page.html"
+- title: 新增功能
+  url: "/whats-new.html"
 - title: 设置向导
   entries:
   - title: 概念

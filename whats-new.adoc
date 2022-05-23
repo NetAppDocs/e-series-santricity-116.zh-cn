@@ -1,0 +1,115 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: whats new, new features, 
+summary: SANtricity OS 中的新增功能。 
+---
+= SANtricity OS 11.6.中的新增功能
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表介绍了SANtricity OS 11.6中的新增功能。
+
+
+
+== 11.62 版中的新增功能
+
+[cols="35h,~"]
+|===
+| 新增功能 | Description 
+
+
+ a| 
+可下载的 CLI
+ a| 
+适用于E5700、EF570、E2800和EF280阵列的System Manager现在可以通过菜单中的链接下载和安装SANtricity 命令行界面(CLI)：Settings[系统>加载项]页面。这是基于 https 的命令行界面版本（也称为 " 安全命令行界面 " ）。此功能先前随 EF600 阵列一起发布。
+
+
+
+ a| 
+在 System Manager 和 Unified Manager 中镜像配置更改
+ a| 
+配置同步和异步镜像对的任务已从 System Manager 移至 Unified Manager 。用于管理镜像对的所有其他任务仍保留在 System Manager 中。
+
+
+
+ a| 
+新的 200 GB 容量 HIC （仅限 EF600 阵列）
+ a| 
+此版本为 EF600 存储阵列添加了一个支持 200 GB 的新 HIC 。支持的接口包括 NVMe/IB ， NVMe/RoCE 和 iSE/IB 。此外，还支持 100 GB SRP/IB 。
+
+
+
+ a| 
+100GB HIC 上的其他选项（仅限 EF600 阵列）
+ a| 
+在现有的 100 GB HIC 上， EF600 存储阵列现在支持 iSE/IB 和 SRP/IB 接口。（ EF570 和 E5700 阵列已支持这些接口。）
+
+
+
+ a| 
+在 System Manager 中删除邮件服务器
+ a| 
+System Manager 允许配置邮件服务器，但没有一种轻松的机制将其删除。在此版本中，现在可以从警报中删除 System Manager 中的邮件服务器配置，这样，警报将不再发送到与此邮件服务器关联的电子邮件地址。
+
+
+
+ a| 
+在 System Manager 中优化池和卷组（仅限 SSD 驱动器）的容量调整
+ a| 
+对于 SSD 驱动器， System Manager 中为池设置和卷组设置提供了一个新的优化容量滑块。通过滑块，您可以调整可用容量与 SSD 写入性能和驱动器使用寿命的平衡。
+
+
+
+ a| 
+System Manager 中的新主机类型
+ a| 
+在 System Manager 中创建新主机时，提供的主机选项现在分为三个类别，以提供更好的指导：常见，不常见以及只有在指示时才使用。
+
+|===
+
+
+== 11.61 版中的新增功能
+
+[cols="35h,~"]
+|===
+| 新增功能 | Description 
+
+
+ a| 
+EF600 的光纤通道支持
+ a| 
+此版本增加了对 EF600 存储系统的光纤通道主机支持。这是 EF600 支持的第一个 SCSI 主机， EF600 最初随所有基于网络结构的 NVMe 主机协议一起发布。可以在 System Manager 中查看和管理 EF600 的单个控制器。可以在 Unified Manager 中查看和管理多个 EF600 存储系统。
+
+
+
+ a| 
+管理员用户的密码要求
+ a| 
+首次登录 Unified Manager 时，您现在必须输入管理员用户的密码。不再存在默认的 "admin" 密码。
+
+|===
+
+
+== 11.60 版中的新增功能
+
+[cols="35h,~"]
+|===
+| 新增功能 | Description 
+
+
+ a| 
+新存储系统型号— EF600
+ a| 
+此版本提供了新的 EF600 全闪存存储系统。EF600 包括 NVMe-oF 主机接口和 NVMe SSD 。
+
+EF600 可显著提高吞吐量并降低延迟。支持的主机接口包括基于 IB 的 NVMe ，基于 RoCE 的 NVMe 和基于 FC 的 NVMe ，这些接口可在 System Manager 中进行配置。可以在 Unified Manager 中查看和管理多个 EF600 存储系统。
+
+
+
+| 可下载的 CLI | 现在、System Manager可以通过菜单：设置(系统>加载项)页面中的链接下载和安装SANtricity 命令行界面(CLI)。这是基于 https 的命令行界面版本。原有的 SANtricity 存储管理器软件包仍包含命令行界面。 
+|===
