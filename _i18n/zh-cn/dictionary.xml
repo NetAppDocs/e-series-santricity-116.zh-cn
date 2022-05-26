@@ -7492,4 +7492,5 @@
   <block id="dd653c0b6bc0cf0f23e208b0da4baee1" category="paragraph">EF600 可显著提高吞吐量并降低延迟。支持的主机接口包括基于 IB 的 NVMe ，基于 RoCE 的 NVMe 和基于 FC 的 NVMe ，这些接口可在 System Manager 中进行配置。可以在 Unified Manager 中查看和管理多个 EF600 存储系统。</block>
   <block id="3975daee7f1db295a72280ffe0739e54" category="cell">现在、System Manager可以通过菜单：设置(系统&gt;加载项)页面中的链接下载和安装SANtricity 命令行界面(CLI)。这是基于 https 的命令行界面版本。原有的 SANtricity 存储管理器软件包仍包含命令行界面。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 软件</block>
 </blocks>
