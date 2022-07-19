@@ -50,7 +50,7 @@ summary: 要在密钥管理服务器和存储阵列控制器之间实现安全�
 此时、CSR文件将保存到本地系统。
 
 . 从密钥管理服务器信任的CA请求签名客户端证书。
-. 拥有客户端证书后、请转到 <<Step 2: Import certificates for the key management server>>。
+. 拥有客户端证书后、请转到  2: Import certificates for the key management server。
 
 
 
@@ -61,7 +61,7 @@ summary: 要在密钥管理服务器和存储阵列控制器之间实现安全�
 
 .开始之前
 * 您必须使用包含安全管理员权限的用户配置文件登录。否则、不会显示证书功能。
-* 您有一个签名的客户端证书文件(请参见 <<Step 1: Complete and submit CSR for authentication with a key management server>>)、并且您已将该文件复制到要访问System Manager的主机。客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。
+* 您有一个签名的客户端证书文件(请参见  1: Complete and submit CSR for authentication with a key management server)、并且您已将该文件复制到要访问System Manager的主机。客户端证书可验证存储阵列的控制器、以便密钥管理服务器可以信任其密钥管理互操作性协议(Key Management Interoperability Protocol、KMIP)请求。
 * 您必须从密钥管理服务器检索服务器证书文件、然后将该文件复制到要访问System Manager的主机。密钥管理服务器证书用于验证密钥管理服务器、以便存储阵列可以信任其IP地址。
 +
 [NOTE]

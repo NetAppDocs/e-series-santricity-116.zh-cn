@@ -45,7 +45,7 @@ summary: 您可以发现多个阵列、以检测管理服务器所在子网中�
 SANtricity 统一管理器会对要添加到管理域的每个阵列执行凭据检查。您可能需要解析与该阵列关联的任何自签名证书和不可信证书。
 
 . 单击 * 下一步 * 继续执行向导中的下一步。
-. 转至 <<Step 2: Resolve self-signed certificates during discovery>>。
+. 转至  2: Resolve self-signed certificates during discovery。
 
 
 
@@ -66,7 +66,7 @@ SANtricity 统一管理器会对要添加到管理域的每个阵列执行凭据
 
 
 . 单击 * 下一步 * 继续执行向导中的下一步。
-. 转至 <<Step 3: Resolve untrusted certificates during discovery>>。
+. 转至  3: Resolve untrusted certificates during discovery。
 
 
 
@@ -110,7 +110,7 @@ SANtricity 统一管理器会对要添加到管理域的每个阵列执行凭据
 
 ====
 . 单击 * 下一步 * 继续执行向导中的下一步。
-. 转至 <<Step 4: Provide passwords>>。
+. 转至  4: Provide passwords。
 
 
 

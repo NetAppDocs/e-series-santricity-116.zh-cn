@@ -80,7 +80,7 @@ CSR可提供有关您的组织、控制器的IP地址或DNS名称以及用于标
 
 . 找到已下载的CSR文件。文件夹位置取决于您的浏览器。
 . 将CSR文件提交到CA并请求PEM格式的签名证书。
-. 等待CA返回证书、然后转到 <<Step 2: Import signed certificates for controllers>>。
+. 等待CA返回证书、然后转到  2: Import signed certificates for controllers。
 
 
 
